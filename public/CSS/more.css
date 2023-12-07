@@ -1,0 +1,136 @@
+/* --------------nav------------- */
+.logo{
+    width: 90px;
+}
+.bg-light {
+    background-color:#A0C49D !important;
+}
+.navbar-collapse{
+    margin-left: 30px;
+  
+}
+.navbar-light .navbar-nav .nav-link {
+    color:white;
+    margin: 5px;
+    font-size: 20px;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+
+.navbar-nav .nav-link {
+    margin-right: 20px;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: bisque;
+}
+/* -----------------footer------------- */
+.footer{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    border: 1px solid #A0C49D;
+    background-color: #A0C49D;
+    height: 200px;
+    justify-content: space-between;
+    
+}
+.footer img{
+    width: 20%;
+    margin-bottom: 20px;
+    margin-left: 133px;
+    font-weight: bold;
+}
+.right{
+    margin-top: 29px;
+    font-size: 13px;
+    margin-left: 90px;
+
+   
+    
+}
+.left{
+    margin-left: 135px;
+    margin-top: 51px;
+    font-size: 20px;
+}
+.middle{
+    margin-top: 51px;
+    font-size: 30px;
+    margin-left: 200px;
+}
+.fa-brands{
+    width:30px;
+    font-size: 20px;
+    margin-left: 5px;
+}
+.fa-copyright{
+    margin-left: 100px;
+}
+.fa-brands{
+    color: black;
+}
+.fa-brands:hover{
+    color: bisque;
+}
+.fa-solid:hover{
+    color: bisque;
+}
+
+@media screen and (min-width:481px) and (max-width:768px){
+    .footer{
+        grid-template-columns: auto auto auto;
+        height: 200px;
+    }
+    .left {
+        margin-left: 40px;
+        margin-top: 51px;
+        font-size: 15px;
+    }
+    .right {
+        margin-top: 35px;
+        font-size: 10px;
+        margin-left: 5px;
+    }
+    .footer img {
+        width: 40%;
+        margin-bottom: 15px;
+        margin-left: 116px;
+        font-weight: bold;
+    }
+    .middle {
+        margin-top: 51px;
+        font-size: 22px;
+        margin-left: 100px;
+    }
+    
+}
+@media screen and (max-width:480px){
+    .footer{
+        grid-template-columns: auto;
+        height: 400px;
+    }
+    .left{
+        margin-left: 135px;
+        margin-top: 19px;
+        font-size: 12px
+    }
+    .middle{
+        margin-top: 30px;
+        font-size: 30px;
+        margin-left: 135px;
+    }
+    .footer img{
+        width: 27%;
+        margin-bottom: 20px;
+        margin-left: 93px;
+        font-weight: bold;
+    }
+    .right{
+        margin-top: 19px;
+        font-size: 12px;
+        margin-left: 36px;
+    }
+}
